@@ -1,0 +1,13 @@
+{
+  "name": "randomvid",
+  "version": "1.0.0",
+  "description": "Returns a random resource (video/image/etc...) from the same path",
+  "main": "index.js",
+  "repository": "https://github.com/princetoast07/randomvid",
+  "author": "Rayane Benamre",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "fastify": "^4.25.2"
+  }
+}
