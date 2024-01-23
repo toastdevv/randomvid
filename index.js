@@ -5,8 +5,6 @@ fastify.register(require("@fastify/static"), {
   root: path.join(__dirname, "/public"),
 });
 
-console.log(path.join(__dirname, "/public"));
-
 fastify.get("/", (request, reply) => {
   reply.send("hi");
 });
